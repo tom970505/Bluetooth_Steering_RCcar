@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bckgrouund"
+    tools:context="com.example.asus.test_project.MainActivity">
+
+    <TextView
+        android:id="@+id/steeringAngle"
+        android:layout_width="156dp"
+        android:layout_height="53dp"
+        android:layout_marginLeft="207dp"
+        android:layout_marginTop="32dp"
+        android:text="Steering Angle"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <SeekBar
+        android:id="@+id/speedPanel"
+        style="@style/Widget.AppCompat.SeekBar.Discrete"
+        android:layout_width="157dp"
+        android:layout_height="158dp"
+        android:max="4"
+        android:progress="0"
+        android:rotation="270"
+        android:layout_marginLeft="486dp"
+        android:thumb="@drawable/p02"
+        android:progressDrawable="@drawable/speedbar_color"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="64dp" />
+
+    <Switch
+        android:id="@+id/foward_reverse"
+        android:layout_width="102dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="16dp"
+        android:textOff="前進"
+        android:textOn="後退"
+        android:background="#1e1f29"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="205dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintVertical_bias="0.431"
+        android:layout_marginLeft="44dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        tools:layout_editor_absoluteY="225dp"
+        tools:layout_editor_absoluteX="4dp" />
+
+    <TextView
+        android:id="@+id/speed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="479dp"
+        android:layout_marginTop="25dp"
+        android:text="Steering Speed"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/setting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="29dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_action_name" />
+
+    <TextView
+        android:id="@+id/ttv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="29dp"
+        android:layout_marginTop="186dp"
+        android:text="Send Data"
+        android:textColor="@android:color/white"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/mySteer"
+        android:layout_width="277dp"
+        android:layout_height="221dp"
+        app:srcCompat="@drawable/p01"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="168dp"
+        android:layout_marginLeft="168dp"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+
+</android.support.constraint.ConstraintLayout>
