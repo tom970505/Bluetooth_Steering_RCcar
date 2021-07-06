@@ -6,9 +6,9 @@ This is an Android App project that attempts to simulate real car driving and sy
 
 
 
-![main_page](D:\+CLOUD\Bluetooth_RCCarApp\Images\main_page.png)
+![main_page](Images/main_page.png)
 
-![Demo](D:\+CLOUD\Bluetooth_RCCarApp\Images\Demo.png)
+![Demo](Images/Demo.png)
 
 ----
 
@@ -68,7 +68,7 @@ The system architecture is majorly composed of transmitting and receiving parts.
 
 
 
-![app_info_01](D:\+CLOUD\Bluetooth_RCCarApp\Images\app_info_01.png)
+![app_info_01](Images/app_info_01.png)
 
-![app_info_02](D:\+CLOUD\Bluetooth_RCCarApp\Images\app_info_02.png)
+![app_info_02](Images/app_info_02.png)
 
